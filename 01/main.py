@@ -21,11 +21,18 @@ try:
     print('logs : ',logs)
 
     new_file = open('01/log_analysis.md', mode='w', encoding='utf-8')
-    data = f'# 로그 분석 보고서\n## 로그 데이터 요약\n- ** 총 로그 수: {len(logs)}개\n## 로그 데이터'
+    data = f'# 로그 분석 보고서\n## 로그 데이터 요약\n- **총 로그 수**: {len(logs)}개\n## 로그 데이터\n'
     new_file.write(data)
-    for log in logs:
-        log_data = ', '.join(log)
-        new_file.write(f'- {log_data}\n')
+
+    header = '| ' + ' | '.join(logs[0]) + ' |\n'
+    separator = '| ' + ('-' * (len(header) - 4)) + ' |\n'
+    new_file.write(header)
+    new_file.write(separator)
+
+    for log in logs[1:]:
+        if(len(log) >= 3):
+            timestamp, event, msg = log[0], log[1], ','.join(log[2:])
+            new_file.write(f'| {timestamp} | {event} | {msg.strip()} |\n')
 
 except FileNotFoundError:
     print('파일을 찾을 수 없음. 파일명 또는 경로 확인 필요')
