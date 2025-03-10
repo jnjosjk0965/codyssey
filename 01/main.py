@@ -25,7 +25,7 @@ try:
     new_file.write(data)
 
     header = '| ' + ' | '.join(logs[0]) + ' |\n'
-    separator = '| ' + ('-' * (len(header) - 4)) + ' |\n'
+    separator = '| ' + ' | '.join(['---' for _ in logs[0]]) + ' |\n'
     new_file.write(header)
     new_file.write(separator)
 
