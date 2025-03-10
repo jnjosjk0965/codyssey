@@ -9,35 +9,44 @@
 - 출력 결과를 시간의 역순으로 정렬해서 출력한다.
 - 출력 결과 중 문제가 되는 부분만 따로 파일로 저장한다.
 '''
+def analysis_log(reverse=False):
+    try:
+        # 로그 파일 읽기
+        file = open('01/mission_computer_main.log', mode='r',encoding='utf-8',)
+        while True:
+            line = file.readline().strip()
+            if not line:
+                break
+            logs.append(line.split(','))
+        # print('logs : ',logs)
+
+        # 로그 분석 파일 작성
+        new_file = open('01/log_analysis.md', mode='w', encoding='utf-8')
+        data = f'# 로그 분석 보고서\n## 로그 데이터 요약\n- **총 로그 수**: {len(logs)}개\n## 로그 데이터\n'
+        new_file.write(data)
+
+        # 로그 데이터 표 헤더
+        header = '| ' + ' | '.join(logs[0]) + ' |\n'
+        separator = '| ' + ' | '.join(['---' for _ in logs[0]]) + ' |\n'
+        new_file.write(header)
+        new_file.write(separator)
+
+        # 로그 데이터 정렬
+        for log in sorted(logs[1:] ,key=lambda x: x[0], reverse=reverse):
+            if(len(log) >= 3):
+                timestamp, event, msg = log[0], log[1], ','.join(log[2:]) # 로그 메시지에 ,가 들어 있을 경우
+                new_file.write(f'| {timestamp} | {event} | {msg.strip()} |\n')
+
+
+    except FileNotFoundError:
+        print('파일을 찾을 수 없음. 파일명 또는 경로 확인 필요')
+    except Exception as e:
+        print("에러: ", e)
+    finally:
+        file.close()
+        new_file.close()    
+
+# 실행
 logs = []
 print('hello mars')
-try:
-    file = open('/Users/amaoto/study/codyssey/01/mission_computer_main.log', mode='r',encoding='utf-8',)
-    while True:
-        line = file.readline().strip()
-        if not line:
-            break
-        logs.append(line.split(','))
-    print('logs : ',logs)
-
-    new_file = open('01/log_analysis.md', mode='w', encoding='utf-8')
-    data = f'# 로그 분석 보고서\n## 로그 데이터 요약\n- **총 로그 수**: {len(logs)}개\n## 로그 데이터\n'
-    new_file.write(data)
-
-    header = '| ' + ' | '.join(logs[0]) + ' |\n'
-    separator = '| ' + ' | '.join(['---' for _ in logs[0]]) + ' |\n'
-    new_file.write(header)
-    new_file.write(separator)
-
-    for log in logs[1:]:
-        if(len(log) >= 3):
-            timestamp, event, msg = log[0], log[1], ','.join(log[2:])
-            new_file.write(f'| {timestamp} | {event} | {msg.strip()} |\n')
-
-except FileNotFoundError:
-    print('파일을 찾을 수 없음. 파일명 또는 경로 확인 필요')
-except Exception as e:
-    print("에러: ", e)
-finally:
-    file.close()
-    new_file.close()
+analysis_log(reverse=True)
