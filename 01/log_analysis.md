@@ -1,13 +1,7 @@
-
-    # 로그 분석 보고서
-
-    ## 로그 데이터 요약
-
-    - ** 총 로그 수: 36개
-
-
-    ## 로그 데이터
-    - timestamp, event, message
+# 로그 분석 보고서
+## 로그 데이터 요약
+- ** 총 로그 수: 36개
+## 로그 데이터- timestamp, event, message
 - 2023-08-27 10:00:00, INFO, Rocket initialization process started.
 - 2023-08-27 10:02:00, INFO, Power systems online. Batteries at optimal charge.
 - 2023-08-27 10:05:00, INFO, Communication established with mission control.

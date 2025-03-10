@@ -21,13 +21,7 @@ try:
     print('logs : ',logs)
 
     new_file = open('01/log_analysis.md', mode='w', encoding='utf-8')
-    data = f'''
-    # 로그 분석 보고서\n
-    ## 로그 데이터 요약\n
-    - ** 총 로그 수: {len(logs)}개\n
-
-    ## 로그 데이터
-    '''
+    data = f'# 로그 분석 보고서\n## 로그 데이터 요약\n- ** 총 로그 수: {len(logs)}개\n## 로그 데이터'
     new_file.write(data)
     for log in logs:
         log_data = ', '.join(log)
