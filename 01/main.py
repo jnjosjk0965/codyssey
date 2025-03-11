@@ -68,14 +68,14 @@ def read_file(file_path:str):
             if not line:
                 break
             data.append(line.split(','))
+
+        file.close()
         return data
     
     except FileNotFoundError:
         print('파일을 찾을 수 없음. 파일명 또는 경로 확인 필요')
     except Exception as e:
         print("에러: ", e)
-    finally:
-        file.close()
 
 
 # 실행
@@ -83,6 +83,4 @@ print('hello mars')
 logs = read_file('01/mission_computer_main.log')
 make_log_report('01/log_analysis.md', logs=logs, reverse=True)
 classified_log_report('01/error_log_report.md', logs=logs)
-# 로그 파일 읽기
-# 파일에서 데이터 추출
-# 
+print('done')
