@@ -18,6 +18,7 @@ def make_log_report(file_name:str, logs:list, reverse=False):
 
     # 로그 데이터 정렬
     for log in sorted(logs[1:] ,key=lambda x: x[0], reverse=reverse):
+        print(log[0], log[1], log[2:])
         if(len(log) >= 3):
             timestamp, event, msg = log[0], log[1], ','.join(log[2:]) # 로그 메시지에 ,가 들어 있을 경우
             add_file(file_name,f'| {timestamp} | {event} | {msg.strip()} |\n')
@@ -67,11 +68,11 @@ def read_file(file_path:str):
             line = file.readline().strip()
             if not line:
                 break
+            print (line)
             data.append(line.split(','))
 
         file.close()
         return data
-    
     except FileNotFoundError:
         print('파일을 찾을 수 없음. 파일명 또는 경로 확인 필요')
     except Exception as e:
@@ -79,8 +80,9 @@ def read_file(file_path:str):
 
 
 # 실행
-print('hello mars')
+print('Hello Mars')
 logs = read_file('01/mission_computer_main.log')
+print("-" * 50)
 make_log_report('01/log_analysis.md', logs=logs, reverse=True)
 classified_log_report('01/error_log_report.md', logs=logs)
 print('done')
