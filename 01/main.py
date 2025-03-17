@@ -15,10 +15,11 @@ def make_log_report(file_name:str, logs:list, reverse=False):
     write_file(file_name, data=data)
     header = '| ' + ' | '.join(logs[0]) + ' |\n' +  '| ' + ' | '.join(['---' for _ in logs[0]]) + ' |\n'
     add_file(file_name, header)
-
+    
     # 로그 데이터 정렬
-    for log in sorted(logs[1:] ,key=lambda x: x[0], reverse=reverse):
-        print(log[0], log[1], log[2:])
+    logdata = sorted(logs[1:] ,key=lambda x: x[0], reverse=reverse)
+    for log in logdata:
+        print(",".join(log))
         if(len(log) >= 3):
             timestamp, event, msg = log[0], log[1], ','.join(log[2:]) # 로그 메시지에 ,가 들어 있을 경우
             add_file(file_name,f'| {timestamp} | {event} | {msg.strip()} |\n')
@@ -40,9 +41,8 @@ def classified_log_report(file_name:str, logs:list):
 # 파일 작성
 def write_file(file_name:str, data):
     try:
-        file = open(file_name, mode='w', encoding='utf-8')
-        file.write(data)
-        file.close()
+        with open(file_name, mode='w', encoding='utf-8') as file:
+            file.write(data)
     except FileNotFoundError:
         print('파일을 찾을 수 없음. 파일명 또는 경로 확인 필요')
     except Exception as e:
@@ -51,9 +51,8 @@ def write_file(file_name:str, data):
 # 파일 내용 추가
 def add_file(file_name:str, data):
     try:
-        file = open(file_name, mode='a', encoding='utf-8')
-        file.write(data)
-        file.close()
+        with open(file_name, mode='a', encoding='utf-8') as file:
+            file.write(data)
     except FileNotFoundError:
         print('파일을 찾을 수 없음. 파일명 또는 경로 확인 필요')
     except Exception as e:
@@ -63,15 +62,13 @@ def add_file(file_name:str, data):
 def read_file(file_path:str):
     try:
         data = []
-        file = open(file_path, mode='r', encoding='utf-8')
-        while True:
-            line = file.readline().strip()
-            if not line:
-                break
-            print (line)
-            data.append(line.split(','))
-
-        file.close()
+        with open(file_path, mode='r', encoding='utf-8') as file:
+            while True:
+                line = file.readline().strip()
+                if not line:
+                    break
+                print (line)
+                data.append(line.split(','))
         return data
     except FileNotFoundError:
         print('파일을 찾을 수 없음. 파일명 또는 경로 확인 필요')
@@ -82,7 +79,7 @@ def read_file(file_path:str):
 # 실행
 print('Hello Mars')
 logs = read_file('01/mission_computer_main.log')
-print("-" * 50)
+print("-" * 40 + " 역순 출력 " + "-" * 40)
 make_log_report('01/log_analysis.md', logs=logs, reverse=True)
 classified_log_report('01/error_log_report.md', logs=logs)
 print('done')
