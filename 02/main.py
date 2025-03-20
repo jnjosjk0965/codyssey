@@ -16,9 +16,9 @@ def readFile(file_name: str):
         return data
 
     except FileNotFoundError as e:
-        print(f"파일을 찾을 수 없음. 파일명 또는 경로 확인 필요: {e}")
+        print(f"{file_name}을 찾을 수 없음. 파일명 또는 경로 확인 필요: {e}")
     except PermissionError as e:
-        print(f"파일에 대한 권한이 없음 : {e}")
+        print(f"{file_name}에 대한 권한이 없음 : {e}")
     except Exception as e:
         print(f"에러 발생 : {e}")
 
@@ -48,9 +48,9 @@ def classifyDangerSub(file_name: str,data: list):
                     file.write(",".join(sub) + "\n") 
 
     except FileNotFoundError as e:
-        print(f"파일을 찾을 수 없음. 파일명 또는 경로 확인 필요: {e}")
+        print(f"{file_name}을 찾을 수 없음. 파일명 또는 경로 확인 필요: {e}")
     except PermissionError as e:
-        print(f"파일에 대한 권한이 없음 : {e}")
+        print(f"{file_name}에 대한 권한이 없음 : {e}")
     except Exception as e:
         print(f"에러 발생 : {e}")
 
@@ -76,9 +76,9 @@ def processBinary(file_name: str, data: list):
             print(line)
 
     except FileNotFoundError as e:
-        print(f"파일을 찾을 수 없음. 파일명 또는 경로 확인 필요: {e}")
+        print(f"{file_name}을 찾을 수 없음. 파일명 또는 경로 확인 필요: {e}")
     except PermissionError as e:
-        print(f"파일에 대한 권한이 없음 : {e}")
+        print(f"{file_name}에 대한 권한이 없음 : {e}")
     except Exception as e:
         print(f"에러 발생 : {e}")
 
