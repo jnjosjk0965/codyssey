@@ -20,7 +20,7 @@ class MyTime:
         time_str = f"{self.year}-{self.month:02d}-{self.day:02d} {self.hour:02d}:{self.minute:02d}:{self.second:02d}"
 
         # 1~5일 사이의 날짜를 증가
-        self.day += random.randint(1,5)
+        self.day += random.randint(3,7)
         month_day = MyTime.month_day[self.month-1]
         if self.day > month_day:
             self.day = self.day - month_day
@@ -91,7 +91,7 @@ env_data = ds.get_env()
 for key, value in env_data.items():
     print(f"{key}: {value:.2f}") # : 포매팅 시작, .2 소수점 둘째자리 까지 f 실수형
 
-for _ in range(150):
+for _ in range(80):
     ds.set_env()
     ds.get_env()
 
