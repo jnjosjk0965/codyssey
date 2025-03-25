@@ -14,12 +14,9 @@ class MyTime:
 
     def get_time(self):
         '''시간을 생성하는 메서드'''
-        self.hour = random.randint(0, 23)
-        self.minute = random.randint(0, 59)
-        self.second = random.randint(0, 59)
         time_str = f"{self.year}-{self.month:02d}-{self.day:02d} {self.hour:02d}:{self.minute:02d}:{self.second:02d}"
 
-        # 1~5일 사이의 날짜를 증가
+        # 다음 날짜를 3~7일 사이로 증가
         self.day += random.randint(3,7)
         month_day = MyTime.month_day[self.month-1]
         if self.day > month_day:
@@ -28,12 +25,20 @@ class MyTime:
             if self.month > 12:
                 self.month = 1
                 self.year += 1
+
+        # 다음 시간을 랜덤 생성        
+        self.hour = random.randint(0, 23)
+        self.minute = random.randint(0, 59)
+        self.second = random.randint(0, 59)
         return time_str
 
 class DummySensor:
     '''센서 더미 데이터를 생성하는 클래스'''
-    def __init__(self):
+    def __init__(self, file: str):
         self.time = MyTime()
+        self.file = file
+        with open(self.file, "w", encoding="utf-8") as file:
+            file.write("Mars Base Environment Log\n\n") 
         self.env_values = {
             # 화성 기지 내부 온도 (18~30도)
             "mars_base_internal_temperature": 0.0,
@@ -61,7 +66,7 @@ class DummySensor:
     def get_env(self):
         '''센서 더미 데이터를 로그에 저장하는 메서드'''
         try:
-            with open("03/mars_base_env.log", "a", encoding="utf-8") as file:
+            with open(self.file, "a", encoding="utf-8") as file:
                 file.write(f"{self.time.get_time()}\n")
                 for key, value in self.env_values.items():
                     match key:
@@ -81,10 +86,9 @@ class DummySensor:
             print(f"에러 발생: {e}")
 
         return self.env_values
-    
-ds = DummySensor()
-with open("03/mars_base_env.log", "w", encoding="utf-8") as file:
-    file.write("Mars Base Environment Log\n\n") 
+
+file_name = "03/mars_base_env.log"    
+ds = DummySensor(file=file_name)
     
 ds.set_env()
 env_data = ds.get_env()
