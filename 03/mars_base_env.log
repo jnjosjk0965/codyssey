@@ -1,650 +1,642 @@
 Mars Base Environment Log
 
-2025-01-01 00:56:18
-mars_base_internal_temperature: 22.69°C
-mars_base_external_temperature: 12.07°C
-mars_base_internal_humidity: 50.78%
-mars_base_external_illuminance: 565.62W/m2
-mars_base_internal_co2: 0.07%
-mars_base_internal_oxygen: 5.10%
-
-2025-01-06 02:15:49
-mars_base_internal_temperature: 25.86°C
-mars_base_external_temperature: 2.08°C
-mars_base_internal_humidity: 50.54%
-mars_base_external_illuminance: 680.68W/m2
-mars_base_internal_co2: 0.05%
-mars_base_internal_oxygen: 4.90%
-
-2025-01-11 12:49:16
-mars_base_internal_temperature: 27.09°C
-mars_base_external_temperature: 18.27°C
-mars_base_internal_humidity: 53.76%
-mars_base_external_illuminance: 538.05W/m2
-mars_base_internal_co2: 0.10%
-mars_base_internal_oxygen: 6.76%
-
-2025-01-15 07:38:06
-mars_base_internal_temperature: 27.72°C
-mars_base_external_temperature: 7.33°C
-mars_base_internal_humidity: 51.46%
-mars_base_external_illuminance: 564.24W/m2
-mars_base_internal_co2: 0.04%
-mars_base_internal_oxygen: 4.97%
-
-2025-01-19 23:15:05
-mars_base_internal_temperature: 28.09°C
-mars_base_external_temperature: 15.64°C
-mars_base_internal_humidity: 54.76%
-mars_base_external_illuminance: 675.51W/m2
+2016-01-01 06:04:12
+mars_base_internal_temperature: 26.23°C
+mars_base_external_temperature: 6.73°C
+mars_base_internal_humidity: 56.94%
+mars_base_external_illuminance: 639.77W/m2
 mars_base_internal_co2: 0.06%
+mars_base_internal_oxygen: 4.19%
+
+2016-01-07 15:23:47
+mars_base_internal_temperature: 20.68°C
+mars_base_external_temperature: 17.69°C
+mars_base_internal_humidity: 54.64%
+mars_base_external_illuminance: 580.16W/m2
+mars_base_internal_co2: 0.09%
+mars_base_internal_oxygen: 5.08%
+
+2016-01-14 16:04:27
+mars_base_internal_temperature: 24.16°C
+mars_base_external_temperature: 11.62°C
+mars_base_internal_humidity: 51.18%
+mars_base_external_illuminance: 524.49W/m2
+mars_base_internal_co2: 0.09%
+mars_base_internal_oxygen: 4.16%
+
+2016-01-17 09:43:48
+mars_base_internal_temperature: 22.26°C
+mars_base_external_temperature: 15.88°C
+mars_base_internal_humidity: 55.28%
+mars_base_external_illuminance: 503.98W/m2
+mars_base_internal_co2: 0.06%
+mars_base_internal_oxygen: 6.28%
+
+2016-01-20 23:22:23
+mars_base_internal_temperature: 25.46°C
+mars_base_external_temperature: 20.13°C
+mars_base_internal_humidity: 54.66%
+mars_base_external_illuminance: 688.14W/m2
+mars_base_internal_co2: 0.09%
+mars_base_internal_oxygen: 6.12%
+
+2016-01-25 05:37:23
+mars_base_internal_temperature: 28.98°C
+mars_base_external_temperature: 18.63°C
+mars_base_internal_humidity: 57.39%
+mars_base_external_illuminance: 593.20W/m2
+mars_base_internal_co2: 0.09%
+mars_base_internal_oxygen: 4.60%
+
+2016-01-31 20:20:15
+mars_base_internal_temperature: 29.34°C
+mars_base_external_temperature: 17.06°C
+mars_base_internal_humidity: 53.96%
+mars_base_external_illuminance: 703.85W/m2
+mars_base_internal_co2: 0.08%
 mars_base_internal_oxygen: 6.66%
 
-2025-01-24 21:29:40
-mars_base_internal_temperature: 29.18°C
-mars_base_external_temperature: 13.56°C
-mars_base_internal_humidity: 52.76%
-mars_base_external_illuminance: 582.00W/m2
-mars_base_internal_co2: 0.08%
-mars_base_internal_oxygen: 4.99%
-
-2025-01-28 21:03:59
-mars_base_internal_temperature: 22.23°C
-mars_base_external_temperature: 2.81°C
-mars_base_internal_humidity: 54.28%
-mars_base_external_illuminance: 704.12W/m2
-mars_base_internal_co2: 0.08%
-mars_base_internal_oxygen: 5.43%
-
-2025-02-01 20:56:30
-mars_base_internal_temperature: 24.27°C
-mars_base_external_temperature: 6.72°C
-mars_base_internal_humidity: 54.82%
-mars_base_external_illuminance: 594.72W/m2
-mars_base_internal_co2: 0.09%
-mars_base_internal_oxygen: 4.72%
-
-2025-02-08 13:16:19
-mars_base_internal_temperature: 22.98°C
-mars_base_external_temperature: 15.12°C
-mars_base_internal_humidity: 58.47%
-mars_base_external_illuminance: 660.25W/m2
-mars_base_internal_co2: 0.05%
-mars_base_internal_oxygen: 5.94%
-
-2025-02-11 02:59:42
-mars_base_internal_temperature: 21.09°C
-mars_base_external_temperature: 15.20°C
-mars_base_internal_humidity: 54.92%
-mars_base_external_illuminance: 704.95W/m2
-mars_base_internal_co2: 0.08%
-mars_base_internal_oxygen: 6.59%
-
-2025-02-17 04:06:17
-mars_base_internal_temperature: 23.14°C
-mars_base_external_temperature: 2.07°C
-mars_base_internal_humidity: 50.42%
-mars_base_external_illuminance: 631.68W/m2
+2016-02-03 10:48:34
+mars_base_internal_temperature: 19.86°C
+mars_base_external_temperature: 9.56°C
+mars_base_internal_humidity: 54.98%
+mars_base_external_illuminance: 593.68W/m2
 mars_base_internal_co2: 0.07%
-mars_base_internal_oxygen: 6.04%
+mars_base_internal_oxygen: 6.08%
 
-2025-02-22 02:16:24
-mars_base_internal_temperature: 29.19°C
-mars_base_external_temperature: 4.86°C
-mars_base_internal_humidity: 50.17%
-mars_base_external_illuminance: 554.41W/m2
-mars_base_internal_co2: 0.06%
-mars_base_internal_oxygen: 4.47%
-
-2025-02-25 15:13:05
-mars_base_internal_temperature: 22.01°C
-mars_base_external_temperature: 18.28°C
-mars_base_internal_humidity: 54.75%
-mars_base_external_illuminance: 578.35W/m2
+2016-02-08 17:17:23
+mars_base_internal_temperature: 29.06°C
+mars_base_external_temperature: 9.40°C
+mars_base_internal_humidity: 58.99%
+mars_base_external_illuminance: 541.68W/m2
 mars_base_internal_co2: 0.03%
-mars_base_internal_oxygen: 6.81%
+mars_base_internal_oxygen: 5.86%
 
-2025-03-04 11:56:47
-mars_base_internal_temperature: 19.67°C
-mars_base_external_temperature: 18.17°C
-mars_base_internal_humidity: 56.82%
-mars_base_external_illuminance: 617.28W/m2
-mars_base_internal_co2: 0.06%
-mars_base_internal_oxygen: 5.78%
+2016-02-14 17:20:10
+mars_base_internal_temperature: 21.31°C
+mars_base_external_temperature: 19.77°C
+mars_base_internal_humidity: 52.30%
+mars_base_external_illuminance: 521.70W/m2
+mars_base_internal_co2: 0.07%
+mars_base_internal_oxygen: 4.01%
 
-2025-03-07 22:15:55
-mars_base_internal_temperature: 23.68°C
-mars_base_external_temperature: 10.49°C
-mars_base_internal_humidity: 51.63%
-mars_base_external_illuminance: 665.46W/m2
-mars_base_internal_co2: 0.04%
-mars_base_internal_oxygen: 6.95%
+2016-02-17 08:19:48
+mars_base_internal_temperature: 24.15°C
+mars_base_external_temperature: 6.58°C
+mars_base_internal_humidity: 55.70%
+mars_base_external_illuminance: 615.33W/m2
+mars_base_internal_co2: 0.10%
+mars_base_internal_oxygen: 6.01%
 
-2025-03-10 13:38:08
-mars_base_internal_temperature: 28.44°C
-mars_base_external_temperature: 5.64°C
-mars_base_internal_humidity: 59.26%
-mars_base_external_illuminance: 650.01W/m2
-mars_base_internal_co2: 0.03%
-mars_base_internal_oxygen: 6.29%
-
-2025-03-16 15:15:49
-mars_base_internal_temperature: 29.30°C
-mars_base_external_temperature: 6.72°C
-mars_base_internal_humidity: 51.92%
-mars_base_external_illuminance: 629.04W/m2
-mars_base_internal_co2: 0.06%
+2016-02-23 22:12:59
+mars_base_internal_temperature: 25.50°C
+mars_base_external_temperature: 13.08°C
+mars_base_internal_humidity: 56.90%
+mars_base_external_illuminance: 571.16W/m2
+mars_base_internal_co2: 0.09%
 mars_base_internal_oxygen: 6.42%
 
-2025-03-20 14:01:02
-mars_base_internal_temperature: 25.21°C
-mars_base_external_temperature: 17.84°C
-mars_base_internal_humidity: 52.75%
-mars_base_external_illuminance: 557.38W/m2
+2016-02-29 21:54:15
+mars_base_internal_temperature: 24.80°C
+mars_base_external_temperature: 4.36°C
+mars_base_internal_humidity: 57.81%
+mars_base_external_illuminance: 581.52W/m2
 mars_base_internal_co2: 0.05%
-mars_base_internal_oxygen: 4.31%
+mars_base_internal_oxygen: 6.69%
 
-2025-03-27 19:24:46
-mars_base_internal_temperature: 20.01°C
-mars_base_external_temperature: 20.79°C
-mars_base_internal_humidity: 52.49%
-mars_base_external_illuminance: 694.65W/m2
-mars_base_internal_co2: 0.02%
-mars_base_internal_oxygen: 6.99%
-
-2025-03-30 14:03:30
-mars_base_internal_temperature: 23.99°C
-mars_base_external_temperature: 19.52°C
-mars_base_internal_humidity: 50.28%
-mars_base_external_illuminance: 630.85W/m2
-mars_base_internal_co2: 0.08%
-mars_base_internal_oxygen: 5.64%
-
-2025-04-05 12:59:35
-mars_base_internal_temperature: 24.33°C
-mars_base_external_temperature: 13.50°C
-mars_base_internal_humidity: 59.70%
-mars_base_external_illuminance: 594.93W/m2
-mars_base_internal_co2: 0.09%
-mars_base_internal_oxygen: 6.92%
-
-2025-04-10 23:07:25
-mars_base_internal_temperature: 25.67°C
-mars_base_external_temperature: 20.82°C
-mars_base_internal_humidity: 52.77%
-mars_base_external_illuminance: 515.33W/m2
-mars_base_internal_co2: 0.05%
-mars_base_internal_oxygen: 4.47%
-
-2025-04-15 23:27:51
-mars_base_internal_temperature: 24.18°C
-mars_base_external_temperature: 10.80°C
-mars_base_internal_humidity: 52.04%
-mars_base_external_illuminance: 653.55W/m2
-mars_base_internal_co2: 0.05%
-mars_base_internal_oxygen: 4.32%
-
-2025-04-18 05:25:23
-mars_base_internal_temperature: 25.62°C
-mars_base_external_temperature: 4.71°C
-mars_base_internal_humidity: 53.88%
-mars_base_external_illuminance: 609.27W/m2
-mars_base_internal_co2: 0.06%
-mars_base_internal_oxygen: 6.52%
-
-2025-04-23 16:58:23
-mars_base_internal_temperature: 20.96°C
-mars_base_external_temperature: 12.31°C
-mars_base_internal_humidity: 52.08%
-mars_base_external_illuminance: 697.76W/m2
-mars_base_internal_co2: 0.04%
-mars_base_internal_oxygen: 4.29%
-
-2025-04-27 06:19:36
-mars_base_internal_temperature: 21.45°C
-mars_base_external_temperature: 5.93°C
-mars_base_internal_humidity: 54.19%
-mars_base_external_illuminance: 537.71W/m2
-mars_base_internal_co2: 0.06%
-mars_base_internal_oxygen: 4.79%
-
-2025-05-03 02:02:26
-mars_base_internal_temperature: 20.63°C
-mars_base_external_temperature: 5.23°C
-mars_base_internal_humidity: 56.67%
-mars_base_external_illuminance: 547.36W/m2
-mars_base_internal_co2: 0.09%
-mars_base_internal_oxygen: 5.67%
-
-2025-05-06 16:30:27
-mars_base_internal_temperature: 25.70°C
-mars_base_external_temperature: 19.45°C
-mars_base_internal_humidity: 52.38%
-mars_base_external_illuminance: 617.49W/m2
-mars_base_internal_co2: 0.08%
-mars_base_internal_oxygen: 4.55%
-
-2025-05-09 16:29:45
-mars_base_internal_temperature: 21.81°C
-mars_base_external_temperature: 9.41°C
-mars_base_internal_humidity: 56.69%
-mars_base_external_illuminance: 550.80W/m2
-mars_base_internal_co2: 0.08%
-mars_base_internal_oxygen: 6.13%
-
-2025-05-13 21:08:13
-mars_base_internal_temperature: 25.76°C
-mars_base_external_temperature: 12.51°C
-mars_base_internal_humidity: 52.25%
-mars_base_external_illuminance: 649.05W/m2
-mars_base_internal_co2: 0.10%
-mars_base_internal_oxygen: 4.61%
-
-2025-05-18 17:58:33
-mars_base_internal_temperature: 25.59°C
-mars_base_external_temperature: 11.60°C
-mars_base_internal_humidity: 57.41%
-mars_base_external_illuminance: 642.32W/m2
-mars_base_internal_co2: 0.06%
-mars_base_internal_oxygen: 4.31%
-
-2025-05-21 13:48:07
-mars_base_internal_temperature: 18.43°C
-mars_base_external_temperature: 15.65°C
-mars_base_internal_humidity: 52.66%
-mars_base_external_illuminance: 536.75W/m2
-mars_base_internal_co2: 0.09%
-mars_base_internal_oxygen: 5.85%
-
-2025-05-27 13:40:22
-mars_base_internal_temperature: 28.67°C
-mars_base_external_temperature: 6.81°C
-mars_base_internal_humidity: 51.32%
-mars_base_external_illuminance: 711.07W/m2
-mars_base_internal_co2: 0.09%
-mars_base_internal_oxygen: 6.61%
-
-2025-06-02 13:34:24
-mars_base_internal_temperature: 20.81°C
-mars_base_external_temperature: 19.11°C
-mars_base_internal_humidity: 55.52%
-mars_base_external_illuminance: 522.34W/m2
-mars_base_internal_co2: 0.10%
-mars_base_internal_oxygen: 6.44%
-
-2025-06-06 08:31:33
-mars_base_internal_temperature: 29.37°C
-mars_base_external_temperature: 14.16°C
-mars_base_internal_humidity: 51.59%
-mars_base_external_illuminance: 551.69W/m2
-mars_base_internal_co2: 0.09%
-mars_base_internal_oxygen: 5.98%
-
-2025-06-12 21:16:27
-mars_base_internal_temperature: 23.14°C
-mars_base_external_temperature: 4.63°C
-mars_base_internal_humidity: 55.59%
-mars_base_external_illuminance: 602.87W/m2
-mars_base_internal_co2: 0.03%
-mars_base_internal_oxygen: 5.40%
-
-2025-06-17 08:26:41
-mars_base_internal_temperature: 25.03°C
-mars_base_external_temperature: 15.10°C
-mars_base_internal_humidity: 58.73%
-mars_base_external_illuminance: 670.18W/m2
-mars_base_internal_co2: 0.06%
-mars_base_internal_oxygen: 6.21%
-
-2025-06-23 13:25:45
-mars_base_internal_temperature: 24.81°C
-mars_base_external_temperature: 11.50°C
-mars_base_internal_humidity: 53.90%
-mars_base_external_illuminance: 672.61W/m2
-mars_base_internal_co2: 0.07%
-mars_base_internal_oxygen: 4.59%
-
-2025-06-30 12:31:58
-mars_base_internal_temperature: 29.33°C
-mars_base_external_temperature: 6.88°C
-mars_base_internal_humidity: 51.75%
-mars_base_external_illuminance: 574.85W/m2
-mars_base_internal_co2: 0.06%
-mars_base_internal_oxygen: 6.14%
-
-2025-07-05 19:41:31
-mars_base_internal_temperature: 29.53°C
-mars_base_external_temperature: 5.05°C
-mars_base_internal_humidity: 56.09%
-mars_base_external_illuminance: 540.69W/m2
-mars_base_internal_co2: 0.08%
-mars_base_internal_oxygen: 4.95%
-
-2025-07-12 09:51:05
-mars_base_internal_temperature: 18.50°C
-mars_base_external_temperature: 8.05°C
-mars_base_internal_humidity: 54.52%
-mars_base_external_illuminance: 651.15W/m2
-mars_base_internal_co2: 0.07%
-mars_base_internal_oxygen: 5.30%
-
-2025-07-18 19:08:06
-mars_base_internal_temperature: 20.22°C
-mars_base_external_temperature: 7.27°C
-mars_base_internal_humidity: 57.00%
-mars_base_external_illuminance: 566.58W/m2
-mars_base_internal_co2: 0.03%
-mars_base_internal_oxygen: 4.57%
-
-2025-07-24 04:08:30
-mars_base_internal_temperature: 25.60°C
-mars_base_external_temperature: 15.23°C
-mars_base_internal_humidity: 59.33%
-mars_base_external_illuminance: 665.60W/m2
-mars_base_internal_co2: 0.04%
-mars_base_internal_oxygen: 5.05%
-
-2025-07-31 13:39:15
-mars_base_internal_temperature: 24.63°C
-mars_base_external_temperature: 6.53°C
-mars_base_internal_humidity: 57.75%
-mars_base_external_illuminance: 589.76W/m2
-mars_base_internal_co2: 0.04%
-mars_base_internal_oxygen: 4.33%
-
-2025-08-05 14:13:09
-mars_base_internal_temperature: 25.68°C
-mars_base_external_temperature: 13.08°C
-mars_base_internal_humidity: 55.09%
-mars_base_external_illuminance: 609.28W/m2
-mars_base_internal_co2: 0.07%
-mars_base_internal_oxygen: 6.94%
-
-2025-08-11 11:49:35
-mars_base_internal_temperature: 24.47°C
-mars_base_external_temperature: 3.99°C
-mars_base_internal_humidity: 52.04%
-mars_base_external_illuminance: 670.66W/m2
-mars_base_internal_co2: 0.06%
-mars_base_internal_oxygen: 4.91%
-
-2025-08-18 05:01:39
-mars_base_internal_temperature: 22.69°C
-mars_base_external_temperature: 11.62°C
-mars_base_internal_humidity: 56.26%
-mars_base_external_illuminance: 506.84W/m2
-mars_base_internal_co2: 0.07%
-mars_base_internal_oxygen: 4.59%
-
-2025-08-23 22:24:54
-mars_base_internal_temperature: 25.87°C
-mars_base_external_temperature: 19.05°C
-mars_base_internal_humidity: 53.12%
-mars_base_external_illuminance: 555.82W/m2
-mars_base_internal_co2: 0.06%
-mars_base_internal_oxygen: 4.40%
-
-2025-08-27 21:44:26
-mars_base_internal_temperature: 22.82°C
-mars_base_external_temperature: 10.94°C
-mars_base_internal_humidity: 54.76%
-mars_base_external_illuminance: 531.21W/m2
-mars_base_internal_co2: 0.06%
-mars_base_internal_oxygen: 6.47%
-
-2025-09-02 14:47:16
-mars_base_internal_temperature: 21.72°C
-mars_base_external_temperature: 11.39°C
-mars_base_internal_humidity: 58.90%
-mars_base_external_illuminance: 619.13W/m2
-mars_base_internal_co2: 0.06%
-mars_base_internal_oxygen: 5.97%
-
-2025-09-05 06:24:28
-mars_base_internal_temperature: 23.73°C
+2016-03-07 05:34:29
+mars_base_internal_temperature: 19.41°C
 mars_base_external_temperature: 0.43°C
-mars_base_internal_humidity: 54.55%
-mars_base_external_illuminance: 676.04W/m2
-mars_base_internal_co2: 0.08%
-mars_base_internal_oxygen: 5.78%
-
-2025-09-08 20:07:34
-mars_base_internal_temperature: 21.70°C
-mars_base_external_temperature: 6.78°C
-mars_base_internal_humidity: 59.25%
-mars_base_external_illuminance: 694.58W/m2
-mars_base_internal_co2: 0.09%
-mars_base_internal_oxygen: 5.54%
-
-2025-09-12 02:52:17
-mars_base_internal_temperature: 21.34°C
-mars_base_external_temperature: 10.18°C
-mars_base_internal_humidity: 57.12%
-mars_base_external_illuminance: 616.99W/m2
-mars_base_internal_co2: 0.08%
-mars_base_internal_oxygen: 6.74%
-
-2025-09-15 14:21:08
-mars_base_internal_temperature: 21.09°C
-mars_base_external_temperature: 10.48°C
-mars_base_internal_humidity: 56.82%
-mars_base_external_illuminance: 560.39W/m2
-mars_base_internal_co2: 0.03%
-mars_base_internal_oxygen: 4.85%
-
-2025-09-20 00:12:38
-mars_base_internal_temperature: 22.15°C
-mars_base_external_temperature: 15.53°C
-mars_base_internal_humidity: 52.61%
-mars_base_external_illuminance: 601.98W/m2
+mars_base_internal_humidity: 56.04%
+mars_base_external_illuminance: 542.15W/m2
 mars_base_internal_co2: 0.05%
-mars_base_internal_oxygen: 6.05%
+mars_base_internal_oxygen: 4.72%
 
-2025-09-26 09:06:30
-mars_base_internal_temperature: 28.44°C
-mars_base_external_temperature: 1.83°C
+2016-03-11 11:08:30
+mars_base_internal_temperature: 28.23°C
+mars_base_external_temperature: 5.22°C
+mars_base_internal_humidity: 55.39%
+mars_base_external_illuminance: 697.84W/m2
+mars_base_internal_co2: 0.05%
+mars_base_internal_oxygen: 6.93%
+
+2016-03-16 17:45:45
+mars_base_internal_temperature: 28.65°C
+mars_base_external_temperature: 3.76°C
 mars_base_internal_humidity: 50.66%
-mars_base_external_illuminance: 581.60W/m2
-mars_base_internal_co2: 0.05%
+mars_base_external_illuminance: 545.17W/m2
+mars_base_internal_co2: 0.09%
+mars_base_internal_oxygen: 5.14%
+
+2016-03-20 21:22:19
+mars_base_internal_temperature: 28.23°C
+mars_base_external_temperature: 15.50°C
+mars_base_internal_humidity: 53.91%
+mars_base_external_illuminance: 580.57W/m2
+mars_base_internal_co2: 0.07%
+mars_base_internal_oxygen: 6.10%
+
+2016-03-23 00:56:10
+mars_base_internal_temperature: 18.75°C
+mars_base_external_temperature: 1.38°C
+mars_base_internal_humidity: 55.86%
+mars_base_external_illuminance: 550.30W/m2
+mars_base_internal_co2: 0.07%
+mars_base_internal_oxygen: 6.26%
+
+2016-03-26 22:34:58
+mars_base_internal_temperature: 29.06°C
+mars_base_external_temperature: 19.52°C
+mars_base_internal_humidity: 50.63%
+mars_base_external_illuminance: 704.46W/m2
+mars_base_internal_co2: 0.03%
 mars_base_internal_oxygen: 5.81%
 
-2025-09-29 02:41:39
-mars_base_internal_temperature: 27.56°C
-mars_base_external_temperature: 7.61°C
-mars_base_internal_humidity: 57.16%
-mars_base_external_illuminance: 646.65W/m2
-mars_base_internal_co2: 0.02%
-mars_base_internal_oxygen: 4.20%
-
-2025-10-03 02:24:58
-mars_base_internal_temperature: 24.83°C
-mars_base_external_temperature: 15.65°C
-mars_base_internal_humidity: 54.44%
-mars_base_external_illuminance: 691.55W/m2
-mars_base_internal_co2: 0.09%
-mars_base_internal_oxygen: 4.06%
-
-2025-10-09 03:42:05
-mars_base_internal_temperature: 27.02°C
-mars_base_external_temperature: 11.32°C
-mars_base_internal_humidity: 52.91%
-mars_base_external_illuminance: 671.19W/m2
-mars_base_internal_co2: 0.08%
-mars_base_internal_oxygen: 4.63%
-
-2025-10-15 05:21:17
-mars_base_internal_temperature: 29.80°C
-mars_base_external_temperature: 9.19°C
-mars_base_internal_humidity: 53.83%
-mars_base_external_illuminance: 683.07W/m2
-mars_base_internal_co2: 0.02%
-mars_base_internal_oxygen: 5.04%
-
-2025-10-21 15:47:13
-mars_base_internal_temperature: 25.39°C
-mars_base_external_temperature: 1.38°C
-mars_base_internal_humidity: 52.83%
-mars_base_external_illuminance: 705.43W/m2
-mars_base_internal_co2: 0.02%
-mars_base_internal_oxygen: 4.24%
-
-2025-10-25 22:09:19
-mars_base_internal_temperature: 26.28°C
-mars_base_external_temperature: 14.47°C
-mars_base_internal_humidity: 55.21%
-mars_base_external_illuminance: 580.43W/m2
-mars_base_internal_co2: 0.08%
-mars_base_internal_oxygen: 5.12%
-
-2025-10-30 14:32:42
-mars_base_internal_temperature: 26.41°C
-mars_base_external_temperature: 19.74°C
-mars_base_internal_humidity: 58.75%
-mars_base_external_illuminance: 623.49W/m2
+2016-03-31 05:06:15
+mars_base_internal_temperature: 22.61°C
+mars_base_external_temperature: 20.53°C
+mars_base_internal_humidity: 51.99%
+mars_base_external_illuminance: 660.85W/m2
 mars_base_internal_co2: 0.03%
-mars_base_internal_oxygen: 6.34%
+mars_base_internal_oxygen: 6.00%
 
-2025-11-05 16:00:59
-mars_base_internal_temperature: 20.66°C
-mars_base_external_temperature: 15.51°C
-mars_base_internal_humidity: 57.80%
-mars_base_external_illuminance: 589.39W/m2
-mars_base_internal_co2: 0.02%
-mars_base_internal_oxygen: 5.12%
+2016-04-07 22:47:01
+mars_base_internal_temperature: 19.94°C
+mars_base_external_temperature: 11.81°C
+mars_base_internal_humidity: 51.73%
+mars_base_external_illuminance: 533.42W/m2
+mars_base_internal_co2: 0.08%
+mars_base_internal_oxygen: 6.01%
 
-2025-11-09 01:18:47
-mars_base_internal_temperature: 27.44°C
-mars_base_external_temperature: 2.84°C
-mars_base_internal_humidity: 54.65%
-mars_base_external_illuminance: 586.15W/m2
-mars_base_internal_co2: 0.09%
-mars_base_internal_oxygen: 6.95%
-
-2025-11-12 13:36:24
-mars_base_internal_temperature: 24.40°C
-mars_base_external_temperature: 3.20°C
-mars_base_internal_humidity: 59.45%
-mars_base_external_illuminance: 684.52W/m2
+2016-04-14 19:53:53
+mars_base_internal_temperature: 26.01°C
+mars_base_external_temperature: 14.62°C
+mars_base_internal_humidity: 53.97%
+mars_base_external_illuminance: 626.91W/m2
 mars_base_internal_co2: 0.07%
-mars_base_internal_oxygen: 5.34%
+mars_base_internal_oxygen: 4.52%
 
-2025-11-18 06:25:02
-mars_base_internal_temperature: 18.27°C
-mars_base_external_temperature: 9.88°C
-mars_base_internal_humidity: 51.39%
-mars_base_external_illuminance: 519.93W/m2
+2016-04-20 12:53:09
+mars_base_internal_temperature: 20.19°C
+mars_base_external_temperature: 11.90°C
+mars_base_internal_humidity: 56.66%
+mars_base_external_illuminance: 567.58W/m2
+mars_base_internal_co2: 0.08%
+mars_base_internal_oxygen: 4.85%
+
+2016-04-23 17:23:18
+mars_base_internal_temperature: 27.15°C
+mars_base_external_temperature: 8.13°C
+mars_base_internal_humidity: 56.90%
+mars_base_external_illuminance: 597.45W/m2
+mars_base_internal_co2: 0.02%
+mars_base_internal_oxygen: 4.49%
+
+2016-04-27 22:39:21
+mars_base_internal_temperature: 20.17°C
+mars_base_external_temperature: 5.65°C
+mars_base_internal_humidity: 53.81%
+mars_base_external_illuminance: 618.64W/m2
+mars_base_internal_co2: 0.10%
+mars_base_internal_oxygen: 6.17%
+
+2016-05-02 04:29:52
+mars_base_internal_temperature: 27.59°C
+mars_base_external_temperature: 4.54°C
+mars_base_internal_humidity: 50.06%
+mars_base_external_illuminance: 604.67W/m2
 mars_base_internal_co2: 0.06%
-mars_base_internal_oxygen: 4.64%
+mars_base_internal_oxygen: 6.88%
 
-2025-11-21 14:36:41
-mars_base_internal_temperature: 18.36°C
-mars_base_external_temperature: 6.37°C
-mars_base_internal_humidity: 53.47%
-mars_base_external_illuminance: 648.82W/m2
-mars_base_internal_co2: 0.09%
-mars_base_internal_oxygen: 4.70%
+2016-05-09 17:06:45
+mars_base_internal_temperature: 24.93°C
+mars_base_external_temperature: 3.61°C
+mars_base_internal_humidity: 56.45%
+mars_base_external_illuminance: 525.42W/m2
+mars_base_internal_co2: 0.05%
+mars_base_internal_oxygen: 6.18%
 
-2025-11-27 02:47:36
-mars_base_internal_temperature: 23.80°C
-mars_base_external_temperature: 5.70°C
-mars_base_internal_humidity: 59.15%
-mars_base_external_illuminance: 658.91W/m2
+2016-05-16 04:22:40
+mars_base_internal_temperature: 28.17°C
+mars_base_external_temperature: 18.59°C
+mars_base_internal_humidity: 53.11%
+mars_base_external_illuminance: 574.12W/m2
+mars_base_internal_co2: 0.08%
+mars_base_internal_oxygen: 4.83%
+
+2016-05-23 06:45:19
+mars_base_internal_temperature: 29.40°C
+mars_base_external_temperature: 7.16°C
+mars_base_internal_humidity: 59.59%
+mars_base_external_illuminance: 554.04W/m2
+mars_base_internal_co2: 0.06%
+mars_base_internal_oxygen: 5.68%
+
+2016-05-28 22:51:39
+mars_base_internal_temperature: 18.56°C
+mars_base_external_temperature: 6.48°C
+mars_base_internal_humidity: 58.06%
+mars_base_external_illuminance: 687.61W/m2
+mars_base_internal_co2: 0.06%
+mars_base_internal_oxygen: 4.67%
+
+2016-05-31 08:16:59
+mars_base_internal_temperature: 25.97°C
+mars_base_external_temperature: 12.44°C
+mars_base_internal_humidity: 53.77%
+mars_base_external_illuminance: 580.04W/m2
 mars_base_internal_co2: 0.04%
-mars_base_internal_oxygen: 6.70%
+mars_base_internal_oxygen: 4.26%
 
-2025-12-03 15:11:40
-mars_base_internal_temperature: 18.39°C
-mars_base_external_temperature: 4.52°C
-mars_base_internal_humidity: 54.34%
-mars_base_external_illuminance: 574.57W/m2
+2016-06-07 10:08:41
+mars_base_internal_temperature: 21.68°C
+mars_base_external_temperature: 3.77°C
+mars_base_internal_humidity: 56.00%
+mars_base_external_illuminance: 667.44W/m2
+mars_base_internal_co2: 0.02%
+mars_base_internal_oxygen: 6.47%
+
+2016-06-13 06:19:35
+mars_base_internal_temperature: 27.24°C
+mars_base_external_temperature: 9.56°C
+mars_base_internal_humidity: 58.85%
+mars_base_external_illuminance: 596.32W/m2
+mars_base_internal_co2: 0.09%
+mars_base_internal_oxygen: 5.91%
+
+2016-06-17 12:53:01
+mars_base_internal_temperature: 28.87°C
+mars_base_external_temperature: 10.00°C
+mars_base_internal_humidity: 51.42%
+mars_base_external_illuminance: 510.12W/m2
+mars_base_internal_co2: 0.07%
+mars_base_internal_oxygen: 6.74%
+
+2016-06-24 01:42:53
+mars_base_internal_temperature: 21.87°C
+mars_base_external_temperature: 7.36°C
+mars_base_internal_humidity: 53.02%
+mars_base_external_illuminance: 677.47W/m2
 mars_base_internal_co2: 0.06%
+mars_base_internal_oxygen: 4.27%
+
+2016-06-28 16:42:32
+mars_base_internal_temperature: 22.61°C
+mars_base_external_temperature: 18.96°C
+mars_base_internal_humidity: 52.50%
+mars_base_external_illuminance: 562.17W/m2
+mars_base_internal_co2: 0.09%
+mars_base_internal_oxygen: 4.12%
+
+2016-07-02 05:11:39
+mars_base_internal_temperature: 19.96°C
+mars_base_external_temperature: 19.46°C
+mars_base_internal_humidity: 58.77%
+mars_base_external_illuminance: 648.05W/m2
+mars_base_internal_co2: 0.05%
+mars_base_internal_oxygen: 6.76%
+
+2016-07-07 01:09:09
+mars_base_internal_temperature: 23.98°C
+mars_base_external_temperature: 0.09°C
+mars_base_internal_humidity: 56.13%
+mars_base_external_illuminance: 526.28W/m2
+mars_base_internal_co2: 0.06%
+mars_base_internal_oxygen: 6.28%
+
+2016-07-12 13:47:09
+mars_base_internal_temperature: 25.47°C
+mars_base_external_temperature: 8.21°C
+mars_base_internal_humidity: 53.53%
+mars_base_external_illuminance: 633.09W/m2
+mars_base_internal_co2: 0.06%
+mars_base_internal_oxygen: 5.88%
+
+2016-07-16 12:31:34
+mars_base_internal_temperature: 18.45°C
+mars_base_external_temperature: 17.02°C
+mars_base_internal_humidity: 56.81%
+mars_base_external_illuminance: 660.99W/m2
+mars_base_internal_co2: 0.06%
+mars_base_internal_oxygen: 6.67%
+
+2016-07-20 23:17:14
+mars_base_internal_temperature: 26.96°C
+mars_base_external_temperature: 0.59°C
+mars_base_internal_humidity: 52.01%
+mars_base_external_illuminance: 656.96W/m2
+mars_base_internal_co2: 0.08%
+mars_base_internal_oxygen: 6.11%
+
+2016-07-27 11:21:39
+mars_base_internal_temperature: 18.90°C
+mars_base_external_temperature: 18.63°C
+mars_base_internal_humidity: 57.24%
+mars_base_external_illuminance: 581.50W/m2
+mars_base_internal_co2: 0.05%
+mars_base_internal_oxygen: 4.22%
+
+2016-08-03 11:25:39
+mars_base_internal_temperature: 21.57°C
+mars_base_external_temperature: 13.27°C
+mars_base_internal_humidity: 53.57%
+mars_base_external_illuminance: 674.13W/m2
+mars_base_internal_co2: 0.07%
+mars_base_internal_oxygen: 5.89%
+
+2016-08-10 08:53:57
+mars_base_internal_temperature: 23.45°C
+mars_base_external_temperature: 8.78°C
+mars_base_internal_humidity: 59.44%
+mars_base_external_illuminance: 583.72W/m2
+mars_base_internal_co2: 0.06%
+mars_base_internal_oxygen: 4.68%
+
+2016-08-15 05:05:04
+mars_base_internal_temperature: 26.42°C
+mars_base_external_temperature: 2.76°C
+mars_base_internal_humidity: 51.06%
+mars_base_external_illuminance: 680.59W/m2
+mars_base_internal_co2: 0.09%
+mars_base_internal_oxygen: 4.84%
+
+2016-08-18 07:22:39
+mars_base_internal_temperature: 18.03°C
+mars_base_external_temperature: 20.53°C
+mars_base_internal_humidity: 58.71%
+mars_base_external_illuminance: 631.48W/m2
+mars_base_internal_co2: 0.09%
+mars_base_internal_oxygen: 4.99%
+
+2016-08-23 06:39:06
+mars_base_internal_temperature: 24.26°C
+mars_base_external_temperature: 16.61°C
+mars_base_internal_humidity: 52.30%
+mars_base_external_illuminance: 650.94W/m2
+mars_base_internal_co2: 0.06%
+mars_base_internal_oxygen: 5.89%
+
+2016-08-28 16:09:08
+mars_base_internal_temperature: 21.29°C
+mars_base_external_temperature: 8.64°C
+mars_base_internal_humidity: 53.11%
+mars_base_external_illuminance: 656.71W/m2
+mars_base_internal_co2: 0.06%
+mars_base_internal_oxygen: 5.80%
+
+2016-09-01 13:46:57
+mars_base_internal_temperature: 22.13°C
+mars_base_external_temperature: 12.11°C
+mars_base_internal_humidity: 56.37%
+mars_base_external_illuminance: 513.38W/m2
+mars_base_internal_co2: 0.09%
+mars_base_internal_oxygen: 6.27%
+
+2016-09-08 08:04:38
+mars_base_internal_temperature: 27.44°C
+mars_base_external_temperature: 18.31°C
+mars_base_internal_humidity: 54.97%
+mars_base_external_illuminance: 662.40W/m2
+mars_base_internal_co2: 0.08%
+mars_base_internal_oxygen: 4.66%
+
+2016-09-13 16:28:04
+mars_base_internal_temperature: 26.52°C
+mars_base_external_temperature: 16.09°C
+mars_base_internal_humidity: 55.86%
+mars_base_external_illuminance: 688.78W/m2
+mars_base_internal_co2: 0.05%
+mars_base_internal_oxygen: 4.99%
+
+2016-09-16 01:46:41
+mars_base_internal_temperature: 28.09°C
+mars_base_external_temperature: 9.93°C
+mars_base_internal_humidity: 53.06%
+mars_base_external_illuminance: 574.52W/m2
+mars_base_internal_co2: 0.04%
+mars_base_internal_oxygen: 5.44%
+
+2016-09-23 17:27:45
+mars_base_internal_temperature: 25.09°C
+mars_base_external_temperature: 1.23°C
+mars_base_internal_humidity: 59.58%
+mars_base_external_illuminance: 569.39W/m2
+mars_base_internal_co2: 0.05%
+mars_base_internal_oxygen: 6.35%
+
+2016-09-26 23:29:55
+mars_base_internal_temperature: 22.28°C
+mars_base_external_temperature: 12.62°C
+mars_base_internal_humidity: 58.45%
+mars_base_external_illuminance: 611.16W/m2
+mars_base_internal_co2: 0.09%
+mars_base_internal_oxygen: 4.19%
+
+2016-10-02 13:01:16
+mars_base_internal_temperature: 26.99°C
+mars_base_external_temperature: 1.97°C
+mars_base_internal_humidity: 54.40%
+mars_base_external_illuminance: 663.84W/m2
+mars_base_internal_co2: 0.04%
+mars_base_internal_oxygen: 4.68%
+
+2016-10-07 06:31:24
+mars_base_internal_temperature: 28.52°C
+mars_base_external_temperature: 2.42°C
+mars_base_internal_humidity: 54.79%
+mars_base_external_illuminance: 564.87W/m2
+mars_base_internal_co2: 0.02%
+mars_base_internal_oxygen: 5.18%
+
+2016-10-10 13:48:43
+mars_base_internal_temperature: 24.14°C
+mars_base_external_temperature: 4.84°C
+mars_base_internal_humidity: 58.33%
+mars_base_external_illuminance: 698.49W/m2
+mars_base_internal_co2: 0.05%
+mars_base_internal_oxygen: 6.43%
+
+2016-10-15 07:34:29
+mars_base_internal_temperature: 20.80°C
+mars_base_external_temperature: 7.61°C
+mars_base_internal_humidity: 55.95%
+mars_base_external_illuminance: 533.64W/m2
+mars_base_internal_co2: 0.04%
+mars_base_internal_oxygen: 6.29%
+
+2016-10-20 11:06:46
+mars_base_internal_temperature: 26.39°C
+mars_base_external_temperature: 5.95°C
+mars_base_internal_humidity: 55.40%
+mars_base_external_illuminance: 531.48W/m2
+mars_base_internal_co2: 0.09%
+mars_base_internal_oxygen: 6.24%
+
+2016-10-25 07:49:39
+mars_base_internal_temperature: 29.64°C
+mars_base_external_temperature: 19.50°C
+mars_base_internal_humidity: 50.02%
+mars_base_external_illuminance: 613.15W/m2
+mars_base_internal_co2: 0.04%
+mars_base_internal_oxygen: 5.76%
+
+2016-10-28 13:14:46
+mars_base_internal_temperature: 24.85°C
+mars_base_external_temperature: 6.33°C
+mars_base_internal_humidity: 50.96%
+mars_base_external_illuminance: 554.79W/m2
+mars_base_internal_co2: 0.06%
+mars_base_internal_oxygen: 5.69%
+
+2016-11-03 03:36:42
+mars_base_internal_temperature: 18.64°C
+mars_base_external_temperature: 2.03°C
+mars_base_internal_humidity: 53.24%
+mars_base_external_illuminance: 549.87W/m2
+mars_base_internal_co2: 0.04%
+mars_base_internal_oxygen: 4.57%
+
+2016-11-09 03:40:11
+mars_base_internal_temperature: 19.04°C
+mars_base_external_temperature: 5.02°C
+mars_base_internal_humidity: 58.59%
+mars_base_external_illuminance: 608.59W/m2
+mars_base_internal_co2: 0.05%
+mars_base_internal_oxygen: 4.08%
+
+2016-11-12 08:57:37
+mars_base_internal_temperature: 18.50°C
+mars_base_external_temperature: 8.85°C
+mars_base_internal_humidity: 57.48%
+mars_base_external_illuminance: 563.44W/m2
+mars_base_internal_co2: 0.05%
+mars_base_internal_oxygen: 4.96%
+
+2016-11-16 10:38:42
+mars_base_internal_temperature: 19.77°C
+mars_base_external_temperature: 0.02°C
+mars_base_internal_humidity: 58.24%
+mars_base_external_illuminance: 592.28W/m2
+mars_base_internal_co2: 0.10%
 mars_base_internal_oxygen: 5.71%
 
-2025-12-10 17:07:50
-mars_base_internal_temperature: 28.57°C
-mars_base_external_temperature: 5.39°C
-mars_base_internal_humidity: 56.56%
-mars_base_external_illuminance: 620.73W/m2
+2016-11-19 21:06:09
+mars_base_internal_temperature: 28.18°C
+mars_base_external_temperature: 14.81°C
+mars_base_internal_humidity: 58.58%
+mars_base_external_illuminance: 616.73W/m2
 mars_base_internal_co2: 0.09%
-mars_base_internal_oxygen: 5.94%
+mars_base_internal_oxygen: 5.06%
 
-2025-12-16 22:15:18
-mars_base_internal_temperature: 18.04°C
-mars_base_external_temperature: 18.21°C
-mars_base_internal_humidity: 53.71%
-mars_base_external_illuminance: 586.24W/m2
-mars_base_internal_co2: 0.04%
-mars_base_internal_oxygen: 5.52%
+2016-11-23 14:51:58
+mars_base_internal_temperature: 26.02°C
+mars_base_external_temperature: 20.47°C
+mars_base_internal_humidity: 55.23%
+mars_base_external_illuminance: 678.99W/m2
+mars_base_internal_co2: 0.07%
+mars_base_internal_oxygen: 4.33%
 
-2025-12-22 02:17:06
-mars_base_internal_temperature: 18.07°C
-mars_base_external_temperature: 3.64°C
-mars_base_internal_humidity: 53.35%
-mars_base_external_illuminance: 625.95W/m2
+2016-11-27 02:40:35
+mars_base_internal_temperature: 18.99°C
+mars_base_external_temperature: 2.55°C
+mars_base_internal_humidity: 50.76%
+mars_base_external_illuminance: 664.50W/m2
 mars_base_internal_co2: 0.03%
-mars_base_internal_oxygen: 5.50%
+mars_base_internal_oxygen: 4.38%
 
-2025-12-26 08:52:58
-mars_base_internal_temperature: 20.51°C
-mars_base_external_temperature: 15.59°C
-mars_base_internal_humidity: 58.79%
-mars_base_external_illuminance: 620.29W/m2
-mars_base_internal_co2: 0.04%
-mars_base_internal_oxygen: 5.84%
-
-2025-12-29 02:42:48
-mars_base_internal_temperature: 26.26°C
-mars_base_external_temperature: 7.96°C
-mars_base_internal_humidity: 59.17%
-mars_base_external_illuminance: 636.79W/m2
-mars_base_internal_co2: 0.04%
-mars_base_internal_oxygen: 4.70%
-
-2026-01-02 09:43:39
-mars_base_internal_temperature: 19.09°C
-mars_base_external_temperature: 3.53°C
-mars_base_internal_humidity: 50.19%
-mars_base_external_illuminance: 700.69W/m2
-mars_base_internal_co2: 0.10%
-mars_base_internal_oxygen: 4.09%
-
-2026-01-07 06:40:53
-mars_base_internal_temperature: 26.44°C
-mars_base_external_temperature: 12.34°C
-mars_base_internal_humidity: 58.35%
-mars_base_external_illuminance: 605.78W/m2
+2016-12-03 08:49:43
+mars_base_internal_temperature: 20.09°C
+mars_base_external_temperature: 11.71°C
+mars_base_internal_humidity: 57.43%
+mars_base_external_illuminance: 515.63W/m2
 mars_base_internal_co2: 0.06%
-mars_base_internal_oxygen: 4.61%
+mars_base_internal_oxygen: 5.86%
 
-2026-01-10 03:01:42
-mars_base_internal_temperature: 21.19°C
-mars_base_external_temperature: 3.32°C
-mars_base_internal_humidity: 54.01%
-mars_base_external_illuminance: 647.95W/m2
+2016-12-09 05:02:32
+mars_base_internal_temperature: 18.46°C
+mars_base_external_temperature: 19.73°C
+mars_base_internal_humidity: 55.27%
+mars_base_external_illuminance: 565.68W/m2
 mars_base_internal_co2: 0.09%
-mars_base_internal_oxygen: 6.38%
+mars_base_internal_oxygen: 6.17%
 
-2026-01-16 21:33:14
-mars_base_internal_temperature: 26.53°C
-mars_base_external_temperature: 0.28°C
-mars_base_internal_humidity: 53.16%
-mars_base_external_illuminance: 664.80W/m2
-mars_base_internal_co2: 0.02%
-mars_base_internal_oxygen: 4.88%
+2016-12-14 19:07:32
+mars_base_internal_temperature: 22.63°C
+mars_base_external_temperature: 3.70°C
+mars_base_internal_humidity: 54.06%
+mars_base_external_illuminance: 553.41W/m2
+mars_base_internal_co2: 0.09%
+mars_base_internal_oxygen: 5.55%
 
-2026-01-22 17:44:05
-mars_base_internal_temperature: 20.32°C
-mars_base_external_temperature: 0.17°C
-mars_base_internal_humidity: 57.13%
-mars_base_external_illuminance: 618.09W/m2
+2016-12-18 19:52:58
+mars_base_internal_temperature: 27.34°C
+mars_base_external_temperature: 5.34°C
+mars_base_internal_humidity: 59.95%
+mars_base_external_illuminance: 503.82W/m2
+mars_base_internal_co2: 0.04%
+mars_base_internal_oxygen: 4.98%
+
+2016-12-24 21:26:29
+mars_base_internal_temperature: 23.24°C
+mars_base_external_temperature: 0.84°C
+mars_base_internal_humidity: 57.11%
+mars_base_external_illuminance: 520.92W/m2
 mars_base_internal_co2: 0.07%
 mars_base_internal_oxygen: 6.44%
 
-2026-01-26 16:41:04
-mars_base_internal_temperature: 29.48°C
-mars_base_external_temperature: 3.80°C
-mars_base_internal_humidity: 59.60%
-mars_base_external_illuminance: 518.75W/m2
+2016-12-29 18:34:07
+mars_base_internal_temperature: 24.87°C
+mars_base_external_temperature: 1.37°C
+mars_base_internal_humidity: 53.01%
+mars_base_external_illuminance: 586.05W/m2
 mars_base_internal_co2: 0.10%
-mars_base_internal_oxygen: 4.94%
+mars_base_internal_oxygen: 4.92%
+
+2017-01-01 19:44:54
+mars_base_internal_temperature: 28.68°C
+mars_base_external_temperature: 2.89°C
+mars_base_internal_humidity: 55.45%
+mars_base_external_illuminance: 537.62W/m2
+mars_base_internal_co2: 0.10%
+mars_base_internal_oxygen: 5.42%
+
+2017-01-08 15:44:20
+mars_base_internal_temperature: 18.55°C
+mars_base_external_temperature: 18.03°C
+mars_base_internal_humidity: 54.37%
+mars_base_external_illuminance: 683.34W/m2
+mars_base_internal_co2: 0.05%
+mars_base_internal_oxygen: 4.64%
+
+2017-01-12 19:54:22
+mars_base_internal_temperature: 27.86°C
+mars_base_external_temperature: 14.34°C
+mars_base_internal_humidity: 52.48%
+mars_base_external_illuminance: 512.10W/m2
+mars_base_internal_co2: 0.03%
+mars_base_internal_oxygen: 4.74%
+
+2017-01-18 01:17:55
+mars_base_internal_temperature: 21.17°C
+mars_base_external_temperature: 18.28°C
+mars_base_internal_humidity: 51.72%
+mars_base_external_illuminance: 627.02W/m2
+mars_base_internal_co2: 0.09%
+mars_base_internal_oxygen: 4.74%
+
+2017-01-22 19:31:12
+mars_base_internal_temperature: 22.27°C
+mars_base_external_temperature: 3.70°C
+mars_base_internal_humidity: 52.75%
+mars_base_external_illuminance: 693.39W/m2
+mars_base_internal_co2: 0.04%
+mars_base_internal_oxygen: 5.35%
+
+2017-01-26 09:52:55
+mars_base_internal_temperature: 24.51°C
+mars_base_external_temperature: 5.14°C
+mars_base_internal_humidity: 55.11%
+mars_base_external_illuminance: 582.68W/m2
+mars_base_internal_co2: 0.09%
+mars_base_internal_oxygen: 5.08%
 
