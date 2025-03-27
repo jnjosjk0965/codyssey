@@ -1,9 +1,9 @@
 import random
 
+MAX_DAY = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 class MyTime:
     '''로그에 입력할 시간을 생성하는 클래스'''
     # 각 월별 일수를 저장한 리스트
-    month_day = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
     def __init__(self):
         self.year = 2016
         self.month = 1
@@ -16,6 +16,9 @@ class MyTime:
         '''윤년 여부를 확인하는 메서드'''
         year = self.year
         return year % 4 == 0 and (year % 100 != 0 or year % 400 == 0)
+    
+    def get_month_day(self):
+            return 29 if self.month == 2 and self.is_leap_year() else MAX_DAY[self.month - 1]
 
     def get_time(self):
         '''시간을 생성하는 메서드'''
@@ -24,10 +27,7 @@ class MyTime:
         # 다음 날짜를 3~7일 사이로 증가
         self.day += random.randint(3,7)
 
-        # 윤년에 따라 2월의 일수 조정
-        month_day = MyTime.month_day[self.month-1]
-        if self.month == 2 and self.is_leap_year():
-            month_day = 29  # 윤년이면 2월은 29일
+        month_day = self.get_month_day()
 
         # 날짜가 월별 일수를 넘으면 다음 달로 이동
         if self.day > month_day:
@@ -81,6 +81,7 @@ class DummySensor:
     
     def write_log(self):
         '''센서 더미 데이터를 로그에 저장하는 메서드'''
+        self.set_env()
         try:
             with open(self.file, "a", encoding="utf-8") as file:
                 file.write(f"{self.time.get_time()}\n")
@@ -104,13 +105,11 @@ class DummySensor:
 file_name = "03/mars_base_env.log"    
 ds = DummySensor(file=file_name)
     
-ds.set_env()
 env_data = ds.get_env()
 for key, value in env_data.items():
     print(f"{key}: {value:.2f}") # : 포매팅 시작, .2 소수점 둘째자리 까지 f 실수형
 
 for _ in range(80):
-    ds.set_env()
     ds.write_log()
 
 print("done")
