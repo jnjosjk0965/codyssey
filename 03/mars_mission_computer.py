@@ -102,14 +102,15 @@ class DummySensor:
         except Exception as e:
             print(f"에러 발생: {e}")
 
-file_name = "03/mars_base_env.log"    
-ds = DummySensor(file=file_name)
-    
-env_data = ds.get_env()
-for key, value in env_data.items():
-    print(f"{key}: {value:.2f}") # : 포매팅 시작, .2 소수점 둘째자리 까지 f 실수형
+if __name__ == "__main__":
+    file_name = "03/mars_base_env.log"    
+    ds = DummySensor(file=file_name)
+        
+    env_data = ds.get_env()
+    for key, value in env_data.items():
+        print(f"{key}: {value:.2f}") # : 포매팅 시작, .2 소수점 둘째자리 까지 f 실수형
 
-for _ in range(80):
-    ds.write_log()
+    for _ in range(80):
+        ds.write_log()
 
-print("done")
+    print("done")
