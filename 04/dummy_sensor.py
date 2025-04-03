@@ -18,7 +18,7 @@ class DummySensor:
         '''센서 더미 데이터를 생성하는 메서드'''
         for key, value in ENV_RANGES.items():
             min, max, unit = value
-            self.env_values[key] = f"{random.uniform(min, max):.2f} {unit}"
+            self.env_values[key] = (round(random.uniform(min, max), 2), unit)
 
     def get_env(self):
         if not self.env_values:
