@@ -33,7 +33,7 @@ class MissionComputer:
         while True:
             try:
                 self.env_values = self.ds.get_env()
-                if self.count >= 300:
+                if self.count >= 20:
                     print("5 minutes passed")
                     keys = list(self.env_values.keys())
                     avg = {}
@@ -45,6 +45,7 @@ class MissionComputer:
                     print(f"5min average: {self.format_json(avg)}")
                     print("\n" + "="*50 + "\n")
                     log = []
+                    self.count = 0
                 else:
                     # 값과 단위의 튜플에서 값만 추출
                     temp = [ v for (v, _) in list(self.env_values.values())]
@@ -53,7 +54,7 @@ class MissionComputer:
                 print(self.format_json(self.env_values))
 
                 self.ds.set_env()
-                time.sleep(5)
+                time.sleep(1)
                 self.count += 5
                 
             except KeyboardInterrupt:
