@@ -16,9 +16,11 @@ class MissionComputer:
         for _, (key, value) in enumerate(dic.items()):
             # 값이 튜플이면 (값, 단위) 결합, 아니면 그대로
             if isinstance(value, tuple):
-                val_str = f"{value[0]}{value[1]}"
-            else:
+                val_str = f"{value[0]} {value[1]}"
+            elif isinstance(value, float):
                 val_str = f"{value:.2f}"  # 평균 값은 소수점 2자리
+            else:
+                val_str = f"{value}"
             lines.append(f'  "{key}": "{val_str}",')
         lines[-1] = lines[-1].rstrip(",")
         lines.append("}")
