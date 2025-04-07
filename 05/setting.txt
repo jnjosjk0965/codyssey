@@ -1,0 +1,4 @@
+os_name
+os_version
+cpu_usage
+memory_usage
