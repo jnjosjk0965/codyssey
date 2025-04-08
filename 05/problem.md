@@ -40,3 +40,45 @@
 ## 보너스 과제
 
 - setting.txt 파일을 만들어서 출력되는 정보의 항목을 셋팅 할 수 있도록 코드를 수정한다.
+
+# psutil
+
+psutil은 Process and System Utilities의 약자로
+파이썬에서 시스템 모니터링, 프로파일링, 프로세스 리소스 제한 및 실행중인 프로세스 관리에 유용한 모듈이다.
+
+## 시스템 관련 (CPU)
+
+```python
+''' cpu 시간을 튜플로 리턴. percpu가 True인 경우 각 cpu에 대해 튜플로 리스트를 리턴함 '''
+psutil.cpi_times()
+# scputimes(user=182305.26, nice=0.0, system=114865.72, idle=2466723.85)
+
+''' cpu 사용률을 백분율로 리턴함.  '''
+for x in range(3):
+  psutil.cpu_percent(interval = 1)
+# 8.1 5.5 7.9
+
+''' cpu 코어 수를 리턴 logical가 False 라면 물리적 코어수를 리턴함. '''
+psutil.cpu_count()
+# 11
+```
+
+## 메모리 관련
+
+```python
+'''
+시스템 메모리 사용량을 바이트 단위로 튜플로 반환
+total : 총 메모리
+available : 시스템을 스왑하지 않고 프로세스에 즉시 제공 가능한 메모리
+percent : 메모리 사용량 백분율
+used : 사용되는 메모리
+free : 실제 메모리 여유량 (total - used == free)가 반드시 성립하지 않음
+active : 현재 사용중이거나 최근에 사용된 메모리
+inactive : 사용중이 아닌 메모리
+buffers : 파일 시스템, 메타 데이터와 같은 것들을 위한 캐시
+shared : 여러 프로세스에서 동시에 액세스 가능한 메모리
+wired : 항상 ram에 남아있는 것으로 표시되는 메모리
+'''
+psutil.virtual_memory()
+# svmem(total=19327352832, available=4029939712, percent=79.1, used=7132069888, free=76890112, active=3963748352, inactive=3747577856, wired=3168321536)
+```
