@@ -1,6 +1,28 @@
+import string
 
 password_path = "password.txt"
 result_path = "result.txt"
+
+word_set = {
+    "a", "an", "the", "in", "on", "at", "by", "for", "with", "to", "of", "from", "about", "as",
+
+    "you", "he", "she", "we", "they", "it", "me", "him", "her", "us", "them",
+
+    "am", "are", "be", "been", "is", "was", "were",
+    "can", "could", "do", "does", "did", "have", "has", "may", "might",
+    "must", "shall", "should", "will", "would",
+
+    "and", "or", "but", "if", "then", "because", "so",
+
+    "who", "what", "when", "where", "why", "how",
+
+    "not", "no", "yes", "all", "some", "one", "only", "just", "like",
+
+    "come", "get", "go", "have", "love", "make", "say", "see", "take",
+
+    "child", "day", "hand", "life", "man", "mars", "thing", "time", "way", "world", "year"
+}
+
 
 def caesar_cipher_decode(target_text: str):
     # 대문자였던 자리의 인덱스를 기억
@@ -28,6 +50,14 @@ def caesar_cipher_decode(target_text: str):
             for i, c in enumerate(shifted_text)
         )
         decoded_list.append(shifted_text)
+
+        # 자동 저장 조건
+        words = shifted_text.lower().split()
+        if any(word.strip(string.punctuation) in word_set for word in words):
+            with open('result.txt', 'w', encoding='utf-8') as f:
+                f.write(shifted_text)
+            print(f"자동 탐지된 단어 복호화 결과가 result.txt에 저장되었습니다:\n→ {shifted_text}")
+            return
 
     # 결과 출력
     print("\n--- 복호화 후보 리스트 ---")
